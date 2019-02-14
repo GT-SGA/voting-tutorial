@@ -1,0 +1,33 @@
+{
+  "name": "voting-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GT-SGA/voting-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GT-SGA/voting-tutorial/issues"
+  },
+  "homepage": "https://github.com/GT-SGA/voting-tutorial#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+  "test": "mocha --compilers js:babel-core/register --recursive"
+  },
+  "babel": {
+  "presets": ["es2015"]
+  }
+}
